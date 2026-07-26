@@ -1,0 +1,1 @@
+powershell -ExecutionPolicy Bypass -File "d:\自制游戏或网页\deploy.ps1"
