@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>贪吃蛇游戏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>贪吃蛇游戏</h1>
+        <div class="score-board">
+            <span>分数: <span id="score">0</span></span>
+            <span>最高分: <span id="highScore">0</span></span>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+        <div class="controls">
+            <p>使用方向键控制蛇的移动</p>
+            <button id="startBtn">开始游戏</button>
+            <button id="pauseBtn">暂停游戏</button>
+            <div class="speed-control">
+                <label for="speedRange">速度:</label>
+                <input type="range" id="speedRange" min="1" max="10" value="5">
+                <span id="speedValue">中等</span>
+            </div>
+        </div>
+        <div class="mobile-controls">
+            <div class="direction-pad">
+                <button class="dir-btn" id="upBtn">↑</button>
+                <div class="horizontal">
+                    <button class="dir-btn" id="leftBtn">←</button>
+                    <button class="dir-btn" id="downBtn">↓</button>
+                    <button class="dir-btn" id="rightBtn">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
