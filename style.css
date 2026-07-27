@@ -187,7 +187,12 @@ h1 {
     gap: 5px;
 }
 
-.horizontal {
+.top-row {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-row {
     display: flex;
     gap: 5px;
 }
