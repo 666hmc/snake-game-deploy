@@ -190,6 +190,7 @@ h1 {
 .top-row {
     display: flex;
     justify-content: center;
+    width: 190px;
 }
 
 .bottom-row {
